@@ -1,0 +1,33 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "exit 0",
+    "start": "nodemon -r esm server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.1",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "crypto": "^1.0.1",
+    "dotenv": "^8.0.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "formidable": "^1.2.1",
+    "html": "^1.0.0",
+    "mongodb": "^3.2.7",
+    "mongoose": "^5.6.5",
+    "nodemailer": "^6.3.0",
+    "nodemon": "^1.19.1",
+    "uuid": "^3.3.2"
+  }
+}
