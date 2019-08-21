@@ -7,7 +7,7 @@ import './models/index';
 const app = express();
 
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3001;
 
 app.use(express.static(path.join(__dirname, './build')))
   .use(express.urlencoded({ extended: false }))
@@ -31,8 +31,5 @@ app.use((err, req, res) => {
 });
 
 app.listen(port, () => {
-//   if (!fs.existsSync('./build/img/cookIcon')) {
-//     fs.mkdirSync('./build/img/HotDogIcon');
-// }
   console.log(`Server running on port : ${port}`);
 });
